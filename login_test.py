@@ -30,6 +30,11 @@ class LoginTest(unittest.TestCase):
             "Username and password are required"
         )
 
+    def test_empty_username(self):
+        self.assertEqual(
+            validate_login("", "admin123"),
+            "Username and password are required"
+        )
 
 if __name__ == "__main__":
     unittest.main()
