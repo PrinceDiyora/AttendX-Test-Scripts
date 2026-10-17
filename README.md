@@ -2,7 +2,7 @@
 
 ## Project Description
 This repository contains sample Python tests for the
-AttendX student attendance application.
+AttendX student attendance application for you.
 
 ## Files
 - login_test.py: Tests valid login, wrong password,
